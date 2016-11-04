@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rc_notification_send" translatable="false">发来了</string>
+    <string name="rc_notification_msg" translatable="false">条消息</string>
+    <string name="rc_notification_contact" translatable="false">个联系人</string>
+    <string name="rc_notification_ticker_text" translatable="false">您有了一条新消息</string>
+</resources>

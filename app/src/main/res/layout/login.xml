@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_bg"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    tools:context="com.imt.musiclamp.fragment.LeftFragment">
+
+    <ImageView android:id="@+id/top_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signin_top_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#88ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/skip"
+        android:layout_marginRight="15dp"/>
+
+    <LinearLayout android:id="@+id/input_phone"
+        android:layout_below="@id/top_image"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@drawable/input_box_bg">
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/phone_inside" />
+
+        <com.imt.musiclamp.view.IEditText android:id="@+id/textPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableRight="@drawable/clear"
+            android:ems="8"
+            android:maxLength="11"
+            android:hint="@string/signin_phone_hint"
+            android:imeOptions="actionNext"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:numeric="integer"
+            android:textColorHint="#bbffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/input_password"
+        android:layout_below="@id/input_phone"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/input_box_bg">
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/password_inside" />
+
+        <com.imt.musiclamp.view.IEditText android:id="@+id/textPwd"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableRight="@drawable/clear"
+            android:ems="8"
+            android:hint="@string/signin_password_hint"
+            android:imeOptions="actionDone"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#bbffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/forgetPwd"
+        android:layout_below="@id/input_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/forget_password"
+        android:textColor="#88ffffff"
+        android:textSize="18dp" />
+
+    <LinearLayout android:id="@+id/button_view"
+        android:layout_below="@id/forgetPwd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView android:id="@+id/regist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_shape_button"
+            android:text="@string/sign_up"
+            android:gravity="center"
+            android:textColor="#88ffffff"
+            android:textSize="18dp" />
+
+        <TextView android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/purple_shape_button"
+            android:text="@string/sign_in"
+            android:textColor="#88ffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout android:id="@+id/qq_layout"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView android:id="@+id/qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/qq" />
+
+            <TextView android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qq"
+                android:text="@string/qq"
+                android:textSize="18sp"
+                android:textColor="#88ffffff" />
+
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/wechat_layout"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView android:id="@+id/wechat"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/weixin" />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/wechat"
+                android:layout_below="@id/wechat"
+                android:textSize="18sp"
+                android:textColor="#88ffffff" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

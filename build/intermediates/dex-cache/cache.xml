@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ac0cf1c277ac73f09fbc3c0f001ea313917b4180">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/instant-run_8e7d4344be7dc9b0fa05b8ae2b1d32121226f788.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.1.1_e24b00da8770d5622ab10953fa5ddd7cba7772d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.9.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="13c0b3f72c67721f9cf20d275bfc142b03cbbc7c">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.afollestad.material-dialogs-core-0.9.0.0_67877684c3652b2b6fd7ed6ef388114e0d0612bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/SMSSDK-1.1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="10d96debb0a87d303bbed7d908c3a6f9a01b3307">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/SMSSDK-1.1.5_a27e4702b1f8ea78d7a810032cfd145a4a7585e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/Rong_IMLib_v1_4_4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cc5d7eb1a6b0e14060e2808f7cf264857cfed0d8">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/Rong_IMLib_v1_4_4_30038b0707c8a9f536f98c258ca4f8556bfa25da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.cocosw/bottomsheet/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="37a4672e2ae8d65082bd66183d12fcd5d106a336">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.cocosw-bottomsheet-1.3.0_7cb9fe2b502f1155067e4027ec0a8a298ea44bf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/com.michaelpardo/activeandroid/3.1.0-SNAPSHOT/4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08/activeandroid-3.1.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4ab7b0182975bc57c49efc5e0b3baa4a10e4ec08">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/activeandroid-3.1.0-SNAPSHOT_692920c24b713167b9230d729a34b114c1988032.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.jeremyfeinstein.slidingmenu/library/1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0e4072fd48238419f424a112fdeb828d91f69e1a">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.jeremyfeinstein.slidingmenu-library-1.3_9cfb1ed9f9176aa1c55d678d3b4fbbb91e683a82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_8abaf807839cc81a3de3522b5165b56da2cdaac1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_09f2b188de3770c7687a0b1200e4260e4078cbdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_d81c660fad26c6dafe34b79d25113538c5e12471.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.7/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1478a113f04bf0b679037b4f6bd88bd1837b96a3">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/me.zhanghai.android.materialprogressbar-library-1.1.7_dbcbb63ac13d83a2ec2e63edf7272ebe8e8e1562.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_1b7ad244525dfdc643b28bc516ff538d2dba5672.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/open_sdk_r4547.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="50c0fe342c5ab67c62444a3e9b58c9706f9dfc2a">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/open_sdk_r4547_87c7607201eadb83b734100b0fbf9b449dd6c528.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_d4586dad2cc3b55f5dae82aebfc798cca269d547.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/net.danlew/android.joda/2.7.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="98ab99b2f216f96b4069417390ec8e87e10fec0d">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/net.danlew-android.joda-2.7.0_838939dac23947f19b6465e3b16b2b2949b390ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/musiclamp_android/WheelLibrary/unspecified/jars/libs/nineoldandroids-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5409a483c97437bacd7f716dddf2330a3f11d5c6">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.2.0_d2fb6da6d89430f5f6b5bf47e942315042fb7bc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_74c3ec2e6897794fad6a80a0d56a9c37457568c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.umeng/fb/5.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1d77d7a46dbf033d8e15b92a2dcb3fbd5a1b7d82">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.umeng-fb-5.3.0_f7e5ba5cef7537685aa2919040180e604b763651.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="890385bedec4cbc1e864ce66b6ddd898335713fd">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_eb2d6652f455df9d663fd4696229045115cf3164.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/fr.avianey.com.viewpagerindicator/library/2.4.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="86f452c126cb92a79e1dcf08efec5404529b698e">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/fr.avianey.com.viewpagerindicator-library-2.4.1_6e791403c6b087ba14c618986bba6772abb63177.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/com.umeng.analytics/analytics/6.0.3/bad9f5cf2504747f6efded323edf71cf399e976a/analytics-6.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bad9f5cf2504747f6efded323edf71cf399e976a">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/analytics-6.0.3_b270929b2ee95fcb7490087a4cc8443c63fb0485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.1-SNAPSHOT/3ea88e34ebd1bb8d0f599ec9a0864dc26078a013/butterknife-6.1.1-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3ea88e34ebd1bb8d0f599ec9a0864dc26078a013">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/butterknife-6.1.1-SNAPSHOT_e3d79e19b6749242a69a7f1ba70e05153fec8a44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/libammsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/libammsdk_8ef5e879794dec2dc79de381d0b90a46d9dc3c87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.github.qiujuer/genius/2.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="46534e1685caf9113c3bccc7a4374c81c52ccd3f">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.github.qiujuer-genius-2.3.1_2d21780af19ffb64a99e639b5f01163f81064268.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/b321fd17a60912973a8344da427487c65ccbb552/joda-time-2.7-no-tzdb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b321fd17a60912973a8344da427487c65ccbb552">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/joda-time-2.7-no-tzdb_efb364657878f2578f1042dada49c8278a226838.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/com.umeng/message/1.4.1/34b257168db32d712b875c64d65d368d417481d1/message-1.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="34b257168db32d712b875c64d65d368d417481d1">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/message-1.4.1_7b0e858d5ac9190458703fd8fb9178d1f0863542.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.7/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e693fc7ab1f9383eec91f1b75604b4e263946652">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/in.srain.cube-ultra-ptr-1.0.7_61584100a45d74fdc74f2737a64d98c053d20e95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-1.2.1_2b21debcd4d544f42cc6d8223b6c78d4b14f6f47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/zxing.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/zxing_beb706b396c39d629edd9cdc8eeb5309ee2f350e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/org.jbundle.util.osgi.wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/98c86e42679fe7ac066f6c242e0d14f0bce0bb7c/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_c65d019293feb20a112e2f7e23ffea73fec7548e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_ad17f591926b77df318063e1cd6e05a12ea0a330.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/mta-sdk-1.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/mta-sdk-1.6.2_d15b72b126a3318051a0cfe79f9371fda6e2ad7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/renderscript-v8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2b276904cd854be6d460f2bcec9cf2cddaf580c1">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/renderscript-v8_a1686f91c1e376804958554f98c124d729e75aa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/sun.misc.BASE64Decoder.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/sun.misc.BASE64Decoder_f371d7c5c3a13a0ef1649e1715d379dc26da19ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/gson-2.3.1_f6fc05084e0dfe3f2d6f3b9df8c1cb76f9e3e719.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.0/a7537446a030da8eb0da4c71424d16c2589f6c4a/glide-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a7537446a030da8eb0da4c71424d16c2589f6c4a">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/glide-3.6.0_4236891e5f03c6a2456602066f1e3cd3347c8365.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dtw/musiclamp_android/app/libs/android-async-http-1.4.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="/Users/dtw/musiclamp_android/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6_300ed3300cc6f15d2e31c616f90956a9c0721105.jar" />
+    </item>
+
+</items>

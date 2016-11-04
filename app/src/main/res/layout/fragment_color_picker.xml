@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:seekarc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="72dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView_back"-->
+        <!--android:layout_width="48dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="@drawable/btn_default_light"-->
+        <!--android:clickable="true"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:src="@drawable/ic_back" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" S  "
+            android:textColor="#ffdddddd"
+            android:id="@+id/smartkey"
+            android:textSize="30dp"
+            android:layout_centerVertical="true"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/textView_my_devices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/my_smart_speaker_lamp"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/textView_my_devices"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_lamp_devices" />
+
+        <ImageView
+            android:id="@+id/imageView_settings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_default_light"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_lamp_setting" />
+    </RelativeLayout>
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageView_color"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_gravity="top|center"-->
+    <!--android:layout_marginTop="100dp"-->
+    <!--android:background="#ffff00" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView_rgb"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:animateLayoutChanges="true">
+
+
+
+            <com.triggertrap.seekarc.SeekArc
+                android:id="@+id/seekArc"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:padding="3dp"
+                android:paddingRight="20dp"
+
+                seekarc:startAngle="90"
+                seekarc:sweepAngle="180" >
+
+            </com.triggertrap.seekarc.SeekArc>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lightmin"
+                android:id="@+id/lightdown"
+                android:paddingBottom="30dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lightmax"
+                android:id="@+id/lightup"
+                android:paddingBottom="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+                <ImageView
+                    android:id="@+id/imageView_wheel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:scaleType="matrix"
+                    android:src="@drawable/color_wheel" />
+
+            <ImageView
+                android:id="@+id/imageView_picker_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageView_wheel"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_picker_point" />
+
+            <ImageView
+                android:id="@+id/imageView_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_picker_switch" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp">
+
+
+                <ImageView
+                    android:id="@+id/imageView_sunlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_lamp_sunlight" />
+
+                <ImageView
+                    android:id="@+id/imageView_color_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_lamp_music" />
+
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/imageView_candle"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_lamp_candle" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imageView_moon"
+            android:src="@drawable/ic_lamp_night" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imageView_custom"
+            android:src="@drawable/ic_lamp_user_mode" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lamp_sound_low" />
+
+        <SeekBar
+            android:id="@+id/seekBar_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lamp_sound_hight" />
+    </LinearLayout>
+
+</LinearLayout>

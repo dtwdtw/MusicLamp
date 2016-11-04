@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="WLAN 设置">
+
+        <EditTextPreference
+            android:key="ssid"
+            android:title="WiFi 名称" />
+
+        <EditTextPreference
+            android:inputType="numberPassword"
+            android:key="password"
+            android:title="WiFi 密码" />
+
+        <Preference
+            android:key="connect"
+            android:title="连接 WiFi" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

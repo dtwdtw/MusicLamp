@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/dtw/musiclamp_android/WheelLibrary/build/intermediates/res/merged/androidTest/debug/drawable/wheel_bg_ver.xml",
+        "source": "/Users/dtw/musiclamp_android/WheelLibrary/build/intermediates/bundles/debug/res/drawable/wheel_bg_ver.xml"
+    },
+    {
+        "merged": "/Users/dtw/musiclamp_android/WheelLibrary/build/intermediates/res/merged/androidTest/debug/drawable/wheel_bg_hor.xml",
+        "source": "/Users/dtw/musiclamp_android/WheelLibrary/build/intermediates/bundles/debug/res/drawable/wheel_bg_hor.xml"
+    },
+    {
+        "merged": "/Users/dtw/musiclamp_android/WheelLibrary/build/intermediates/res/merged/androidTest/debug/drawable/wheel_val.xml",
+        "source": "/Users/dtw/musiclamp_android/WheelLibrary/build/intermediates/bundles/debug/res/drawable/wheel_val.xml"
+    }
+]

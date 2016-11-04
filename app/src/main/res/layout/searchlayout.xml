@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#614FA5">
+
+        <ImageView
+            android:id="@+id/imageView_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_default_light"
+            android:clickable="true"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_back" />
+
+        <EditText
+            android:id="@+id/edittextsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imageView_back"
+            android:layout_toLeftOf="@id/search"
+            android:layout_toRightOf="@+id/imageView_back"
+            android:hint="@string/search_song_hint"
+            android:imeOptions="actionSearch"
+            android:nextFocusLeft="@id/imageView_back"
+            android:singleLine="true"
+            android:textColor="#DAD5F2"
+            android:textSize="18sp" />
+
+        <!--<Spinner-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/edittextsearch"-->
+        <!--android:hint="歌曲名称、歌手名、专辑"-->
+        <!--android:textColor="#DAD5F2"-->
+
+
+        <!--android:textSize="18sp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toRightOf="@+id/imageView_back"-->
+        <!--android:layout_toLeftOf="@id/search"-->
+        <!--android:layout_toEndOf="@+id/imageView_back">-->
+
+        <!--</Spinner>-->
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#00ffffff"
+            android:padding="10dp"
+            android:src="@drawable/ic_search" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:background="#ffdddddd"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="#ff662299"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/back"
+            android:src="@drawable/back"
+            android:background="@drawable/gray_shape_button"
+            android:text="@string/return1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+
+            android:textColor="#dddddd"
+            android:id="@+id/tab"
+            android:text="@string/my_friends" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="13dp"
+            android:id="@+id/info"
+            android:src="@drawable/friendinfo"
+            android:layout_gravity="right" />
+
+    </FrameLayout>
+
+    <ListView android:gravity="top"
+        android:divider="#00000000"
+        android:dividerHeight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:transcriptMode="alwaysScroll"
+        android:id="@+id/converList"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/send_voice"
+                android:background="@drawable/sendbutton"
+                android:layout_margin="3dp"
+                android:textColor="#ddffffff"
+                android:visibility="visible"
+                android:id="@+id/sendS" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:visibility="invisible"
+                android:layout_toLeftOf="@+id/sendM"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendM"
+                android:layout_gravity="right"
+                android:text="@string/send"
+                android:visibility="invisible"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/text"
+            android:id="@+id/change" />
+
+        <Button
+            android:background="@drawable/sendbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/musices"
+            android:textColor="#ddffffff"
+            android:id="@+id/music" />
+    </LinearLayout>
+</LinearLayout>

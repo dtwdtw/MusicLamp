@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_bg">
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcome_to_signup"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/input_phone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_box_bg">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/phone_inside" />
+
+        <com.imt.musiclamp.view.IEditText
+            android:id="@+id/editText1"
+            android:drawableRight="@drawable/clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:ems="10"
+            android:maxLength="11"
+            android:hint="@string/phone_number"
+            android:gravity="center_vertical"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:textColor="#ffffff"
+            android:textColorHint="#bbffffff"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/input_verification"
+        android:layout_below="@id/input_phone"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <com.imt.musiclamp.view.IEditText
+            android:id="@+id/editText2"
+            android:drawableRight="@drawable/clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/input_box_bg"
+            android:ems="4"
+            android:hint="@string/verification_code"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:maxLength="4"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:textColor="#ffffff"
+            android:layout_marginRight="5dp"
+            android:textColorHint="#bbffffff"
+            android:textSize="18dp" />
+
+        <TextView android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:background="@drawable/get"
+            android:text="@string/get"
+            android:gravity="center"
+            android:textColor="#ff665581"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/input_password"
+        android:layout_below="@id/input_verification"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/input_box_bg"
+        android:layout_height="45dp">
+
+    <ImageView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/password_inside"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center_vertical" />
+
+    <com.imt.musiclamp.view.IEditText
+        android:id="@+id/passWord1"
+        android:drawableRight="@drawable/clear"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:layout_height="match_parent"
+        android:textColor="#ffffff"
+        android:textColorHint="#bbffffff"
+        android:textSize="18dp"
+        android:maxLength="12"
+        android:gravity="center_vertical"
+        android:hint="@string/sigup_password_hint"
+        android:background="@null"
+        android:password="true"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/blue_shape_button"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="@string/sign_up" />
+
+</RelativeLayout>

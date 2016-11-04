@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="6dp">
+
+        <com.imageview.makeImageView
+            android:id="@+id/friendHead"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/defalthead" />
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right|top"-->
+        <!--android:src="@drawable/add"/>-->
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/friendName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello"
+                android:layout_gravity="center_vertical"
+                android:textColor="#bb000000"
+                android:textSize="18dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/add"
+                android:layout_toStartOf="@+id/add" />
+
+            <TextView
+                android:id="@+id/friendSex"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@string/male"
+                android:textColor="#ccffffff" />
+
+            <TextView
+                android:id="@+id/friendInfo"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="This is my word"
+                android:textColor="#ccffffff" />
+
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:focusable="false"
+                android:text="@string/add"
+                android:visibility="invisible"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

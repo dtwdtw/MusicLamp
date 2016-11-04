@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--colors.xml-->
+<resources>
+    <color name="style_color_primary">#009688</color>
+    <color name="style_color_primary_dark">#00756a</color>
+    <color name="style_color_accent">#00756a</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+
+    <color name="text_hint_color">#bbffffff</color>
+    <color name="text_color">#88ffffff</color>
+
+    <color name="purple_text">#ff6e5ed1</color>
+    <color name="white">#ffffff</color>
+
+</resources>

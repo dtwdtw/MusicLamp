@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ff5159ce">
+
+        <ImageView android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/feed_back"
+            android:textColor="#88ffffff"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+        <EditText android:id="@+id/feed_back"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/please_enter"
+            android:textSize="14sp"
+            android:background="@drawable/input_box_bg"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#88ffffff"
+            android:textColorHint="#bbffffff"
+            android:inputType="textMultiLine"
+            android:gravity="left|top"
+            android:minLines="10"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView android:id="@+id/submit"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:background="@drawable/blue_shape_button"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#88ffffff"
+            android:textSize="18sp"
+            android:text="@string/submit" />
+
+</LinearLayout>
